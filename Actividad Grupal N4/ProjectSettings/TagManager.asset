@@ -11,11 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - LvlLayer00
+  - LvlLayer01
+  - Enemy
+  - Coin
+  - Player
   - 
   - 
   - 
@@ -40,4 +40,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: LvlLayer00
+    uniqueID: 2547957567
+    locked: 0
+  - name: LvlLayer01
+    uniqueID: 232112525
+    locked: 0
+  - name: Enemy
+    uniqueID: 2502248597
+    locked: 0
+  - name: Coin
+    uniqueID: 3264494291
+    locked: 0
+  - name: Player
+    uniqueID: 2183557197
     locked: 0
