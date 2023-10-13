@@ -12,12 +12,14 @@ public class CommandVoice : MonoBehaviour
 
     Dictionary<string, Action> actions = new Dictionary<string, Action>(); // creo las comando
 
+
     void Start()
     {
         //creo las acciones segun el comandod e voz
         actions.Add("jugar",Jugar);
         actions.Add("salir",Salir);
         actions.Add("reiniciar",Reiniciar);
+        actions.Add("pantalla principal", PantallaPrincipal);
         actions.Add("menu", Menu);
         //
 
@@ -33,6 +35,14 @@ public class CommandVoice : MonoBehaviour
     {
         Debug.Log("Menu Del Juego");
         SceneManager.LoadScene(0);
+        
+    }
+
+    private void PantallaPrincipal()
+    {
+        Debug.Log("Menu Del Juego");
+        SceneManager.LoadScene(0);
+        
     }
 
     private void Reiniciar()

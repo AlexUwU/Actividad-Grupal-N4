@@ -5,11 +5,12 @@ using UnityEngine;
 
 public class ObjectScene : MonoBehaviour
 {
+
     private void Awake()
     {
         var noDestruir = FindObjectsOfType<ObjectScene>();
 
-        if (noDestruir.Length > 1)
+        if (noDestruir.Length > 2)
         {
             Destroy(gameObject);
             return;

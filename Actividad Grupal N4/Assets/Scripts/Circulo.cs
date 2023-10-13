@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Circulo : MonoBehaviour
 {
@@ -90,13 +91,5 @@ public class Circulo : MonoBehaviour
         Gizmos.DrawLine(posicionInicialGizmos, posicionFinalGizmos);
         Gizmos.DrawWireSphere(posicionInicialGizmos, radioCirculo);
         Gizmos.DrawWireSphere(posicionFinalGizmos, radioCirculo);
-    }
-
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("Colision");
-        }
     }
 }
