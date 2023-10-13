@@ -435,6 +435,63 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1001 &2623973316694336447
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2623973317572977649, guid: 87074b253b04c8e498974a2740120465, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623973317572977649, guid: 87074b253b04c8e498974a2740120465, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623973317572977649, guid: 87074b253b04c8e498974a2740120465, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623973317572977649, guid: 87074b253b04c8e498974a2740120465, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623973317572977649, guid: 87074b253b04c8e498974a2740120465, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623973317572977649, guid: 87074b253b04c8e498974a2740120465, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623973317572977649, guid: 87074b253b04c8e498974a2740120465, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623973317572977649, guid: 87074b253b04c8e498974a2740120465, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623973317572977649, guid: 87074b253b04c8e498974a2740120465, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623973317572977649, guid: 87074b253b04c8e498974a2740120465, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623973317572977649, guid: 87074b253b04c8e498974a2740120465, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623973317572977652, guid: 87074b253b04c8e498974a2740120465, type: 3}
+      propertyPath: m_Name
+      value: Moneda
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87074b253b04c8e498974a2740120465, type: 3}
 --- !u!58 &3172735835094240843
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1759,6 +1816,7 @@ MonoBehaviour:
   speedAbajo: 0
   horizontal: 0
   vertical: 0
+  agarroMoneda: 0
 --- !u!1 &3419241456693930317
 GameObject:
   m_ObjectHideFlags: 0
