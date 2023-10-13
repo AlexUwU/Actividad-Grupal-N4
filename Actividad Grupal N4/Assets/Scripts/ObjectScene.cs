@@ -9,7 +9,7 @@ public class ObjectScene : MonoBehaviour
     {
         var noDestruir = FindObjectsOfType<ObjectScene>();
 
-        if (noDestruir.Length > 1)
+        if (noDestruir.Length > 2)
         {
             Destroy(gameObject);
             return;

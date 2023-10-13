@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Meta
+  - ParedIzquierda
+  - ParedDerecha
+  - ParedArriba
+  - ParedAbajo
+  - Enemy
   layers:
   - Default
   - TransparentFX
