@@ -26,6 +26,8 @@ public class Player : MonoBehaviour
 
     public bool vertical;
 
+    public bool agarroMoneda = false;
+
     void Start()
     {
         //creo las acciones segun el comandod e voz
@@ -162,26 +164,30 @@ public class Player : MonoBehaviour
 
         if (other.collider.CompareTag("Meta"))
         {
-            speedIzquierda = 0;
-            speedDerecha = 0;
-            speedArriba = 0;
-            speedAbajo = 0;
-            horizontal = false;
-            vertical = false;
-            Debug.Log("Meta");
-            level++;
-            if (level == 2)
+            if (agarroMoneda)
             {
-                SceneManager.LoadScene(level);
-                Debug.Log("Level 2");
-                transform.position = new Vector2(-11, 0);
-            }
+                speedIzquierda = 0;
+                speedDerecha = 0;
+                speedArriba = 0;
+                speedAbajo = 0;
+                horizontal = false;
+                vertical = false;
+                agarroMoneda = false;
+                Debug.Log("Meta");
+                level++;
+                if (level == 2)
+                {
+                    SceneManager.LoadScene(level);
+                    Debug.Log("Level 2");
+                    transform.position = new Vector2(-11, 0);
+                }
 
-            if(level == 3)
-            {
-                SceneManager.LoadScene(level);
-                Debug.Log("Level 3");
-                transform.position = new Vector2(-4, 7);
+                if (level == 3)
+                {
+                    SceneManager.LoadScene(level);
+                    Debug.Log("Level 3");
+                    transform.position = new Vector2(-4, 7);
+                }
             }
         }
 
@@ -194,6 +200,7 @@ public class Player : MonoBehaviour
             speedAbajo = 0;
             horizontal = false;
             vertical = false;
+            agarroMoneda = false;
             if (level == 1)
             {
                 transform.position = new Vector2(-13, 0);
@@ -211,6 +218,12 @@ public class Player : MonoBehaviour
                 Debug.Log("Level 3");
                 transform.position = new Vector2(-4, 7);
             }
+        }
+
+        if (other.collider.CompareTag("Coin"))
+        {
+            agarroMoneda = true;
+            other.gameObject.SetActive(false);
         }
     }
 }

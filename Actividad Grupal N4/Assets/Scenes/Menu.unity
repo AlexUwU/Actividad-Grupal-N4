@@ -345,6 +345,102 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1836395601}
     m_Modifications:
+    - target: {fileID: 41209075423781713, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 525.4636
+      objectReference: {fileID: 0}
+    - target: {fileID: 41209075423781713, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 132.7656
+      objectReference: {fileID: 0}
+    - target: {fileID: 41209075423781713, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41209075423781713, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 66.383
+      objectReference: {fileID: 0}
+    - target: {fileID: 872608796902810304, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 525.4636
+      objectReference: {fileID: 0}
+    - target: {fileID: 872608796902810304, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 132.7656
+      objectReference: {fileID: 0}
+    - target: {fileID: 872608796902810304, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0000038147
+      objectReference: {fileID: 0}
+    - target: {fileID: 872608796902810304, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 66.383
+      objectReference: {fileID: 0}
+    - target: {fileID: 3170649497396165188, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3170649497396165188, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3170649497396165188, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3170649497396165188, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3170649497396165188, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 216.29077
+      objectReference: {fileID: 0}
+    - target: {fileID: 3170649497396165188, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 64.6279
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219321731203171433, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_text
+      value: Block Trek
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219321731203171433, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_fontSize
+      value: 50.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6166185565062943916, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6166185565062943916, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6166185565062943916, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6166185565062943916, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6166185565062943916, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 216.29077
+      objectReference: {fileID: 0}
+    - target: {fileID: 6166185565062943916, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 64.6279
+      objectReference: {fileID: 0}
+    - target: {fileID: 7774175326192060187, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_text
+      value: Block Trek
+      objectReference: {fileID: 0}
+    - target: {fileID: 7774175326192060187, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
+      propertyPath: m_fontSize
+      value: 50.7
+      objectReference: {fileID: 0}
     - target: {fileID: 8368930451796492688, guid: f35aad3ee8a46954d8f13a528124f780, type: 3}
       propertyPath: m_Name
       value: Canvas
